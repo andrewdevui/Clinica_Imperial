@@ -12,17 +12,17 @@ import afiliaciones from '../Imagenes/afiliaciones.png'
 
 export const Inicio = () => {
   return (
-    <div className="App"> 
+  <div className="App"> 
     <header className="App-header">
       <img className="logo" src={logo_clinica} alt='' />
       <img className="nombre" src={nombre_clinica} alt='' />
     </header>
     <body className='body'>
         <div className="rectangulo"></div>
-          <button className="boton">Oficina virtual afiliados</button>
+        <button className="boton">Oficina virtual afiliados</button>
         <button className="boton2">Registrate afiliado</button>
         <form method='get'action={Inicio}>
-            <button type='submit'className="boton3">Inicio</button>
+          <button type='submit'className="boton3">Inicio</button>
         </form>
         <button className="boton4">Red de Atención</button>
         <button className="boton5"> Afiliados</button>
@@ -54,8 +54,6 @@ export const Inicio = () => {
         <img className="afiliaciones" src={afiliaciones} alt='' />
         <texto className="afiliaciones1"><b>Afiliacion</b></texto>
     </body>
-
-
   </div>
   )
 }
