@@ -35,6 +35,7 @@ export const Login = () => {
         <option value="pumpernickel">Cedula Extranjeria</option>
         <option value="reeses">Pasaporte</option>
         <option value="reeses">Registro Civil</option>
+        <option value="reeses">Contraseña</option>
         </select>
         
       </header>
